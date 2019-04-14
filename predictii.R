@@ -1,6 +1,6 @@
 library(sqldf)
 library(plotrix)
-predictions = read.csv("predictie.csv", TRUE, ";")
+predictions = read.csv("predictie.csv", TRUE, ",")
 
 #NUMBER OF PACIENTS SUFFERING FROM THE TOP 5 MOST PREDICTED DISEASES (OR ATTEMPTED TO PREDICT)
 
