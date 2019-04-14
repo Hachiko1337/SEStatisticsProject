@@ -1,0 +1,73 @@
+#install.packages("plyr")
+#install.packages("plotrix")
+library(plyr)
+library(plotrix)
+tabel <- read.csv("da.csv",TRUE,",")
+
+var="Sex.M.F" #Merge pentru toate coloanele
+
+a = count(tabel,var)
+
+var <-gsub(".", " ", var, fixed=TRUE)
+
+i = nrow(a)
+p=i
+p
+colors <- rainbow(i)
+
+slices = NULL
+lbls = NULL
+while (i>0){
+  slices <- c(slices,a[[i,2]])
+  lbls <- c(lbls,substr(a[[i,1]],1,100))
+  i=i-1
+}
+
+pct <- round(slices/sum(slices)*100)
+lbls <- paste(lbls, pct)
+lbls <- paste(lbls,"%",sep="") 
+if(var!="Age")
+  if(p<=3)
+    pie3D(slices,explode=0.1,labels = lbls, col=colors,main=var,radius=1)
+if(p>3)
+  pie(slices,labels = lbls,col=colors,main=var,radius=1)
+
+if(var=="Age")
+{
+  aa <- 0
+  b <- 0
+  c <- 0
+  d <- 0
+  e <- 0
+  while (p > 0) {
+    if(a[p,1]>=20 && a[p,1]<=30){
+      aa=aa+a[p,2]
+      #print(a[p,1])
+    }
+    if(a[p,1]>=30 && a[p,1]<=40){
+      b=b+a[p,2]
+      #print(a[p,1])
+      #print(a[2,p])
+    }
+    if(a[p,1]>=40 && a[p,1]<=50){
+      c=c+a[p,2]
+      #print(a[p,1])
+    }
+    if(a[p,1]>=50 && a[p,1]<=60){
+      d=d+a[p,2]
+      #print(a[p,1])
+    }
+    if(a[p,1]>=60 && a[p,1]<=70){
+      e=e+a[p,2]
+      #print(a[p,1])
+    }
+    p = p-1
+  }
+  
+  x=c(aa,b,c,d,e)
+  max <-max(x)
+  max <-max+(10-max%%10)
+  par(las=2)
+  par(mar=c(5,8,4,2)) 
+  barplot(x,main="Age range", xlim=c(0,max),horiz=TRUE, las=1,names.arg=c("20-30y", "30-40y", "40-50y","50-60y","60-70y"), cex.names=0.8)
+}
