@@ -1,6 +1,0 @@
-In caz ca vrei sa rulezi codul:
-Codul nu ruleaza fara libraria "sqldf" care face parte din pachetul "sqldf". Este posibil ca R sa nu aiba pachetul "sqldf" by default.
-In acest caz se poate proceda astfel:
-
-  1) extrag arhiva "Arihva-sqldf" in folder-ul "library" aflat in folderul "R-3.5.3" (sau cel cu versiunea R-ului)
-  2) instalez pachetul "sqldf" (fie prin comanda install.packages("sqldf") sau folositi IDE-ul)
