@@ -2,7 +2,7 @@ library(sqldf)
 library(plotrix)
 predictions = read.csv("predictie.csv", TRUE, ",")
 
-#NUMBER OF PACIENTS SUFFERING FROM THE TOP 5 MOST PREDICTED DISEASES (OR ATTEMPTED TO PREDICT)
+#NUMBER OF PACIENTS SUFFERING FROM THE TOP 5 MOST PREDICTED DISEASES
 
 diseasePredictionFrame = data.frame(disease = predictions$Disease)
 diseasePredictionQuery = sqldf("select disease, count(*) from diseasePredictionFrame group by disease order by count(*) desc limit 5")
