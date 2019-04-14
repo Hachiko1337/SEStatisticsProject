@@ -1,0 +1,6 @@
+In caz ca vrei sa rulezi codul:
+
+  Folosesc libraria "sqldf" gasita in pachetul "sqldf". E posibil sa nu aiba R pachetul asta by default deci trebuie instalat astfel:
+  
+      1) dezarhivezi arhiva "Arhiva-sqldf" in folder-ul "library" din folder-ul "R-3.5.3" (sau cel in care este instalat R-ul)
+      2) instalezi pachetul "sqldf" executand comanda "install.packages("sqldf")" sau folosind IDE
