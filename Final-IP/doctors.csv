@@ -1,0 +1,74 @@
+Nr.,LastName,Firstname,Sex M/F,Age,Specialties,Practice years,Number of pacients,Successful cases
+1,John  ,Iacob    ,Male,33,Pathology,22,26,27
+2,Toacaci  ,Iancu    ,Male,67,Pathology,24,30,29
+3,Toacescu  ,Ianis    ,Male,28,Psychiatry,20,25,29
+4,Abraham  ,Ieremia    ,Male,46,Pathology,28,26,25
+5,Ieremie  ,Ilarie    ,Male,39,Psychiatry,21,23,27
+6,Toader  ,Ilarion    ,Male,67,Pathology,21,29,28
+7,Toadere  ,Ilie    ,Male,33,Dermatology,22,23,30
+8,Toaipa  ,Inocentiu    ,Male,30,Psychiatry,30,30,30
+9,Stan  ,Ioan    ,Male,35,Pathology,28,28,28
+10,Brad  ,Ion    ,Male,53,Psychiatry,27,24,29
+11,Jaime  ,Ionel    ,Male,50,Psychiatry,20,30,26
+12,Lane  ,Joseph    ,Male,35,Psychiatry,26,20,28
+13,Burduhasca  ,Ionut    ,Male,38,Psychiatry,23,24,29
+14,Toarcea  ,Iosif    ,Male,49,Psychiatry,28,29,28
+15,Toarce  ,Irinel    ,Male,59,Surgery,20,24,25
+16,Toader  ,Iulian    ,Male,32,Surgery,29,22,28
+17,Toba  ,Iuliu    ,Male,38,Surgery,25,28,25
+18,Tobarnac  ,Iurie    ,Male,56,Surgery,30,26,28
+19,Tobescu  ,Iustin    ,Male,65,Oncology,22,24,25
+20,Toboc  ,Iustinian    ,Male,55,Surgery,25,28,28
+21,Tobol  ,Ivan    ,Male,38,Dermatology,26,27,29
+22,Tobolcea  ,Sabina  ,Male,39,Psychiatry,20,23,27
+23,Toboltoc  ,Sabrina  ,Male,60,Surgery,27,29,25
+24,Tobos  ,Safta  ,Male,58,Surgery,29,26,30
+25,Tobosaru  ,Salomea  ,Male,43,Dermatology,23,21,30
+26,Toboseriu  ,Sanda  ,Male,26,Dermatology,26,23,28
+27,Toca  ,Saveta  ,Male,59,Oncology,27,24,25
+28,Tocaci  ,Savina  ,Male,57,Oncology,28,20,30
+29,Tocaciu  ,Sânziana  ,Male,56,Oncology,28,20,30
+30,Tocai  ,Semenica  ,Male,27,Surgery,28,21,28
+31,Tocal?  ,Severina  ,Male,47,Surgery,20,29,30
+32,Tocan  ,Sidonia  ,Male,44,Surgery,30,27,30
+33,Tocanel  ,Silvana  ,Male,36,Surgery,21,20,26
+34,Tocanila  ,Silvia  ,Male,58,Oncology,25,30,28
+35,Tocarciuc  ,Silviana  ,Male,42,Surgery,20,30,30
+36,Tocariu  ,Simina  ,Male,58,Dermatology,24,21,28
+37,Tocaru  ,Simona  ,Male,48,Psychiatry,26,24,25
+38,Tocila  ,Smaranda  ,Male,62,Surgery,24,22,26
+39,Tocileanu  ,Sofia  ,Male,61,Psychiatry,25,20,29
+40,Tocilescu  ,Sonia  ,Male,50,Surgery,21,23,28
+41,Tocitu  ,Sorana  ,Male,65,Dermatology,30,28,30
+42,Tocmelea  ,Sorina  ,Female,28,Psychiatry,20,24,28
+43,Toci  ,Speranta  ,Female,67,Surgery,27,26,28
+44,Toda  ,Stana  ,Female,62,Surgery,27,27,29
+45,Todan  ,Stanca  ,Female,43,Dermatology,23,27,27
+46,Toda  ,Stela  ,Female,53,Surgery,29,26,28
+47,Todar  ,Steliana  ,Female,56,Surgery,25,30,29
+48,Todea  ,Steluta  ,Female,53,Surgery,22,27,25
+49,Todean  ,Suzana  ,Female,54,Surgery,25,30,30
+50,Todeanu  ,Svetlana  ,Female,29,Dermatology,25,20,26
+51,Todeas  ,Valentin  ,Female,64,Dermatology,22,28,26
+52,Todeci  ,Valeriu  ,Female,58,Dermatology,24,25,25
+53,Toderan  ,Valter  ,Female,41,Surgery,30,27,29
+54,Todera  ,Vasile  ,Female,65,Dermatology,24,21,25
+55,Toderac  ,Vasilica  ,Male,34,Psychiatry,22,25,27
+56,Toderacu  ,Veniamin  ,Male,34,Surgery,22,25,26
+57,Toderean  ,Vicentiu  ,Male,63,Surgery,25,27,30
+58,Todereanu  ,Victor  ,Male,44,Dermatology,21,29,26
+59,Toderel  ,Vincentiu  ,Male,49,Pathology,20,28,25
+60,Toderesc  ,Viorel  ,Male,44,Pathology,26,28,26
+61,Toderescu  ,Visarion  ,Male,49,Psychiatry,30,24,30
+62,Toderic  ,Vlad  ,Male,63,Oncology,22,27,26
+63,Toderici  ,Vladimir  ,Male,44,Dermatology,25,24,30
+64,Todericiu  ,Vlaicu  ,Male,28,Oncology,21,25,27
+65,Toderic  ,Voicu  ,Male,53,Oncology,26,23,28
+66,Toderoiu  ,Danut,Male,50,Oncology,24,30,30
+67,Toderu  ,Flavius,Male,60,Surgery,22,20,27
+68,Todescu  ,Paul,Male,35,Pathology,29,26,25
+69,Todesin  ,Anastasia,Male,29,Dermatology,30,30,28
+70,Tode  ,Manuela,Male,56,Psychiatry,30,20,28
+71,Todi  ,Andra,Male,51,Pathology,22,28,25
+72,Todic  ,Razvan,Male,49,Psychiatry,28,21,29
+73,Todinca  ,Stefan,Male,59,Psychiatry,28,20,30
