@@ -249,7 +249,6 @@ successfulTests = 0
 
 
 sink(file = outputFile, append = FALSE, split = FALSE)
-sink()
 top5MostPredictedDiseases(NULL)
 top5MostPredictedDiseases(2)
 top5MostPredictedDiseases("String")
@@ -266,3 +265,4 @@ successAndFailureRatesForTop5Treatments(predictions$Treatment)
 successAndFailureRatesForTop5Treatments(as.Date("18-01-1999"))
 successAndFailureRatesForTop5Treatments(predictions)
 printFinalResults()
+sink()
